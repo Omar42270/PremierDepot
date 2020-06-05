@@ -35,3 +35,12 @@ int division(int a, int b)
 	
 	return resultat;
 }
+
+int factoriel(int nb)
+{
+	for (i = nb-1; i > 0; i--)
+	{
+		nb *= i;
+	}
+
+}
