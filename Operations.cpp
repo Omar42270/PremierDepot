@@ -35,3 +35,14 @@ int division(int a, int b)
 	
 	return resultat;
 }
+
+int exposant(int nb, int exp)
+{
+	int i;
+	int res=nb;
+	for (i=0;i<exp;i++)
+	{
+		res=res*nb;
+	}
+	return res
+}
