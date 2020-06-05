@@ -1,4 +1,4 @@
-#include "Operations.h"
+﻿#include "Operations.h"
 
 int addition(int a, int b)
 {
@@ -54,4 +54,10 @@ int factoriel(int nb)
 		resultat = nb * i;
 	}
 	return resultat;
+}
+
+void coordonnees(int xa, int xb, int ya, int yb, int resultatx , int resultaty)
+{
+	resultatx = xb − xa;
+	resultaty = yb − ya;
 }
