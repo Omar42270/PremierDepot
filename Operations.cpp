@@ -46,3 +46,12 @@ int exposant(int nb, int exp)
 	}
 	return res
 }
+
+int factoriel(int nb)
+{
+	for (i = nb-1; i > 0; i--)
+	{
+		resultat = nb * i;
+	}
+	return resultat;
+}
